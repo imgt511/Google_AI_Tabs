@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Google AI Tabs",
+  "version": "1.0",
+  "description": "Lists open tabs for AI Studio, Gemini, and NotebookLM in the context menu.",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "https://aistudio.google.com/*",
+    "https://gemini.google.com/*",
+    "https://notebooklm.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
