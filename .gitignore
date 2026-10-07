@@ -1,0 +1,38 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Extension distribution & builds
+*.zip
+*.crx
+*.pem
+*.pub
+dist/
+build/
+
+# Node dependencies & logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Python / Virtualenvs
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.onnx
+*.bin
+
+# Environment & secrets
+.env
+.env.local
+*.key
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
